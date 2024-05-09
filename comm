@@ -1,2 +1,0 @@
-	mpif77 -o main heat.f95 -fcheck=mem
-	mpirun -n 4 ./main 
